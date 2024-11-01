@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Maps_Sydney"
+rootProject.name = "Maps_Padang"
 include(":app")
  

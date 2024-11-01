@@ -1,3 +1,5 @@
+import org.apache.tools.ant.util.JavaEnvUtils.VERSION_1_8
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -5,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.nurpajria.maps_sydney"
+    namespace = "com.nurpajria.maps_padang"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.nurpajria.maps_sydney"
+        applicationId = "com.nurpajria.maps_padang"
         minSdk = 35
         targetSdk = 35
         versionCode = 1
@@ -31,6 +33,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
